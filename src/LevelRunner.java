@@ -5,7 +5,6 @@ import java.util.Comparator;
  * General class to run a specified level of the game
  */
 public class LevelRunner {
-
     private static final int bufferSize = 8;
 
     private boolean isVertical;
@@ -31,6 +30,4 @@ public class LevelRunner {
         }
         //Create timers and such to manage events, launches the timers as well
     }
-
-
 }
